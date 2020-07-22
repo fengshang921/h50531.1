@@ -1,0 +1,56 @@
+/* banner*/
+#banner .menu{
+    list-style: none;
+    position: relative;
+}
+#banner .menu li{
+    font-weight: bold;
+    font-size: 14px;
+    color: #1a1a1a;
+    
+}
+#banner .menu li>p{
+    position: relative;
+      left: 0;
+      top: 0;
+      z-index: 999;
+      width: 198px;
+      line-height: 30px;
+      background-color: #ccc;
+      text-align: center;
+}
+#banner .menu li div{
+    position: absolute;
+    left: 197px;
+    top: 0;
+    z-index: 888;
+    width: 580px;
+    border: 1px solid orange;
+    display: none;
+    padding: 15px 70px 30px 37px;box-sizing: border-box;
+}
+#banner .menu li div p{
+    font-size: 12px;
+}
+#banner .menu .active>p{
+    border: 1px solid #f60;
+    background-color: #fff;
+    border-right: 1px solid #fff;
+    color: red;
+}
+#banner .menu li.active .on{
+      /* display: block; */
+ } 
+ /* #banner .box img{
+     width: 1000px ;
+     height: 400px;
+ }
+ #banner .box{                         
+   width: 1000px ;
+   height: 400px;
+   overflow: hidden;
+}
+#banner .box ul{
+    /* list-style: none;
+} */
+
